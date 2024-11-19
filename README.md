@@ -12,31 +12,48 @@ Auto Team Balancer is a Unity-based tool designed to optimize team balancing for
 - **Scalability**: Supports both small and large player pools.  
 
 ## Requirements  
+
 - Unity 2021.3 or later  
+
 - .NET Framework compatible with Unity's version  
 
 ## Installation  
 
 1. Clone the repository:  
+
    ```bash  
+
    git clone https://github.com/Horse1jj/Auto-team-balancer.git  
+   
+   ```
 
 Open the Unity project:
+
 Launch Unity Hub.
+
 Click Add and select the cloned project folder.
 Add the tool to your scene:
+
 Drag and drop the AutoTeamBalancer script or prefab into your scene hierarchy.
+
 Configure the component in the Unity Inspector.
 Usage
 
 Setup:
+
 Import your player data (e.g., skill levels, ranks) into the AutoTeamBalancer script.
 Run the Tool:
+
 Call the AutoTeamBalancer.BalanceTeams() method in your game logic.
+
 The tool will return balanced team compositions.
 Customization:
+
 Adjust balancing parameters directly in the script or through the Unity Inspector.
+
 Code Example
+
+``` c#
 
 using UnityEngine;
 
@@ -51,23 +68,43 @@ public class ExampleUsage : MonoBehaviour
         Debug.Log("Teams have been balanced!");  
     }  
 }  
-Contributing
+
+```
+
+## Contributing
 
 We welcome contributions! To contribute:
 
 Fork the repository.
+
 Create a new branch:
+
+```markdown
+
 git checkout -b feature/your-feature-name  
+
+```
+
 Make your changes and commit:
+
+``` markdown 
+
 git commit -m "Description of changes"  
+
+```
 Push your changes:
+``` markdown 
+
 git push origin feature/your-feature-name  
+
+```
 Open a pull request on GitHub.
-License
+
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgments
+## Acknowledgments
 
 Thanks to all contributors and testers for their support.
 
